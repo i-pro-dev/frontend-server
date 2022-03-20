@@ -104,6 +104,12 @@ p {
   width: 340px;
   height: 195px;
 }
+.background3 {
+  background: url("back3.png");
+  border-radius: 32px 10px;
+  width: 340px;
+  height: 195px;
+}
 .python {
   width: 239px;
   height: 120px;
@@ -240,4 +246,49 @@ button {
   align-items: center;
   justify-content: center;
   border-radius: 4px;
+}
+.blue{
+  background: 
+#B5C9FF;
+}
+.circle{
+  width:30px;
+  height:30px;
+  border-radius: 15px;
+  background: linear-gradient(141.21deg, #8FCDFD 4.63%, #7075F4 88.27%);
+}
+.vanik{
+  width:25px;
+  height:25px;
+  background: url(маник.svg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: 15px;
+}
+.grig{
+  width:25px;
+  height:25px;
+  position: relative;
+  background: url(Григорий.svg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: 15px;
+}
+.irina{
+  width:25px;
+  height:25px;
+  position: relative;
+  background: url(ирина.svg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: 15px;
+}
+.arina{
+  width:25px;
+  height:25px;
+  position: relative;
+  background: url(арина.svg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: 15px;
 }

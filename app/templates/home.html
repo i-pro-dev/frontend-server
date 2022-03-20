@@ -14,11 +14,11 @@
     <div class="m-3 d-flex justify-content-around align-items-center">
         <div class="logo-text p">SKILLPLACES</div>
         <div class="d-flex justify-content-around align-items-center">
-            <div class="text p mx-2 d-flex align-items-center mx-2"><div class="grey-search-icon"></div>Поиск</div>
-            <div class="text p mx-3">Конкурсы</div>
+            <div class="text p mx-2 d-flex align-items-center mx-2" onclick='document.location.href="/search"'><div class="grey-search-icon"></div>Поиск</div>
+            <div class="text p mx-3" onclick='document.location.href = "/desktop-feed"'>Конкурсы</div>
             <div class="text p mx-3">Разместить заказ</div>
-            <div class="text p mx-3">Регистрация</div>
-            <div class="text p mx-3">Вход</div>
+            <div class="text p mx-3" onclick='document.location.href = "/login"'>Регистрация</div>
+            <div class="text p mx-3" onclick='document.location.href = "/login"'>Вход</div>
         </div>
     </div>
     <div class="d-flex flex-column align-items-center py-5">
@@ -30,7 +30,7 @@
                         Мы работаем только с квалифицированными специалистами, четко следим за качеством разработки на всех стадиях создания продукта.
                     </p></div>
                 </div>
-                <div><button class="px-4 mb-5">Присоединиться</button></div>
+                <div><button class="px-4 mb-5" onclick='document.location.href = "/login"'>Присоединиться</button></div>
             </div>
             <div class="art"></div>
         </div>
